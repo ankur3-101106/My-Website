@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="website icon" type="jpg" href="call-outline.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+        *{
+            font-family: 'Merriweather', serif;
+            box-sizing: border-box;
+        }
+        body {
+            background: none;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #132599;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            width:100%;
+            z-index: 1;
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content:space-around;
+        }
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transform: ease 3s;
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+        .me{
+            text-align: right;
+            padding: 5px;
+            margin: 0;
+        }
+        .me img{
+            width: 150px;
+            /* filter: drop-shadow(0 0 6px rgb(131, 131, 131)); */
+            padding: 5px;
+            border: double 1px rgb(75, 75, 0);
+        }
+        .col1{
+            margin: 2px;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 17px;
+            padding-top: 29px;
+        }
+        .col2{
+            padding: 7px;
+            flex: 16%;
+        }
+        .contact{
+            text-decoration: none;
+            color: azure;
+        }
+        .text{
+            padding-top: 60px;
+            display: flex;
+            width: 100%;
+            background: transparent;
+        }
+        .social_media{
+            display: flex;
+            width: 100%;
+            justify-content:space-around;
+            background-color: antiquewhite;
+        }
+        .social_media div{
+            flex:unset;
+        }
+        ion-icon{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <ul>
+                <li><a href="https://ankur3-101106.github.io/My-Website/website.html">My Website</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="text">
+        <span>
+            This is my website.<a target="_blank" href="https://ankur3-101106.github.io/My-Website/website.html">MY WEBSITE</a><br>
+        </span>
+        <div class="me"><img src="Ankur.jpg"></div>
+    </div>
+    <div class="social_media">
+        <div class="insta">
+            <a href="https://instagram.com/ankur3_101106">
+                <ion-icon name="logo-instagram" ></ion-icon>
+            </a>
+        </div>
+        <div class="git">
+            <a href="https://github.com/ankur3-101106">
+                <ion-icon name="logo-github" ></ion-icon>
+            </a>
+        </div>
+        <div class="tweet">
+            <a href="https://x.com/ankur3_101106">
+                <ion-icon name="logo-twitter" ></ion-icon>
+            </a>
+        </div>
+        <div class="tweet">
+                <ion-icon src="logo-onlyfans.svg" ></ion-icon>
+        </div>
+    </div>   
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
